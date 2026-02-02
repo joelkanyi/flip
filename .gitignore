@@ -1,21 +1,90 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Generated files
 *.iml
-.gradle
-/local.properties
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+/build
+/captures
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio / IntelliJ
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/copilot*.xml
+*.hprof
+
+# macOS
 .DS_Store
-/build
-/captures
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Native build
 .externalNativeBuild
 .cxx
-local.properties
 
 # Signing keys - NEVER commit these
 keystore/
 *.keystore
 *.jks
 keystore.properties
+signing.properties
+
+# Firebase / Google Services (contains API keys)
+google-services.json
+**/google-services.json
+
+# Environment files
+.env
+.env.*
+*.env
+
+# API keys and secrets
+secrets.properties
+secrets.xml
+**/secrets/
+api-keys.properties
+
+# Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Service account files
+*-service-account.json
+*service-account*.json
+
+# Proguard
+proguard/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
