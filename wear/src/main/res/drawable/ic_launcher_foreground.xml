@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Coin shadow -->
+    <path
+        android:pathData="M56,58m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:fillColor="#30000000"/>
+
+    <!-- Coin outer rim - gold/orange -->
+    <path
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:fillColor="#E65100"/>
+
+    <!-- Coin main face - gold -->
+    <path
+        android:pathData="M54,54m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0"
+        android:fillColor="#FFCA28"/>
+
+    <!-- Coin inner area - lighter gold -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+        android:fillColor="#FFD54F"/>
+
+    <!-- Decorative inner ring -->
+    <path
+        android:pathData="M54,54m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Letter F - for Flip -->
+    <path
+        android:pathData="M46,42 L46,66"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M46,42 L62,42"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M46,52 L58,52"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Shine/highlight effect -->
+    <path
+        android:pathData="M36,38 Q44,30 56,34"
+        android:strokeColor="#60FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>

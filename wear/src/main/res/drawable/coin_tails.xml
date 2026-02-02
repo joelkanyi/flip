@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer rim -->
+    <path
+        android:pathData="M24,24m-23,0a23,23 0,1 1,46 0a23,23 0,1 1,-46 0"
+        android:fillColor="#E65100"/>
+
+    <!-- Main coin face -->
+    <path
+        android:pathData="M24,24m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0"
+        android:fillColor="#FFCA28"/>
+
+    <!-- Inner area -->
+    <path
+        android:pathData="M24,24m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"
+        android:fillColor="#FFD54F"/>
+
+    <!-- Decorative ring -->
+    <path
+        android:pathData="M24,24m-17,0a17,17 0,1 1,34 0a17,17 0,1 1,-34 0"
+        android:strokeColor="#FFE082"
+        android:strokeWidth="0.5"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Letter T -->
+    <path
+        android:pathData="M16,16 L32,16 M24,16 L24,32"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>
