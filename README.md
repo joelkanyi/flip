@@ -64,11 +64,15 @@ No ads. No accounts. No unnecessary features. Just a beautiful, tactile coin fli
   <img src="art/screenshot_stats.png" width="200" alt="Statistics"/>
 </p>
 
+
 <p align="center">
   <em>Left to right: Idle state, Heads result, Tails result, Statistics screen</em>
 </p>
 
 ---
+
+## Video
+https://github.com/user-attachments/assets/fd64e49a-91fd-4aa2-a9bd-4a0ac9d90c8c
 
 ### State Machine
 
