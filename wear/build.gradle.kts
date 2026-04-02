@@ -22,7 +22,7 @@ android {
         targetSdk = 36
         // Version code scheme: [targetSdk][major][minor][patch][build]
         // 36 + 01 + 00 + 01 = 36010001
-        versionCode = 36010001
+        versionCode = 36010002
         versionName = "1.0.0"
     }
 
